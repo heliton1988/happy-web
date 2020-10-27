@@ -11,7 +11,7 @@ import { Container, Wrapper, Location } from './styles';
 //   toggleTheme(): void;
 // }
 
-const Landing = () => (
+const Landing: React.FC = () => (
   <Container>
     <Wrapper>
       {/* <SwitchButton toggleTheme={toggleTheme} /> */}
