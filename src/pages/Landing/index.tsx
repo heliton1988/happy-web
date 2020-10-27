@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 
 import logo from '../../assets/logo.svg';
-import SwitchButton from '../../components/SwitchButton';
+// import SwitchButton from '../../components/SwitchButton';
 import { Container, Wrapper, Location } from './styles';
 
-interface Props {
-  toggleTheme(): void;
-}
+// interface Props {
+//   toggleTheme(): void;
+// }
 
-const Landing: React.FC<Props> = ({ toggleTheme }) => (
+const Landing = () => (
   <Container>
     <Wrapper>
-      <SwitchButton toggleTheme={toggleTheme} />
+      {/* <SwitchButton toggleTheme={toggleTheme} /> */}
 
       <img src={logo} alt="Happy" />
 
